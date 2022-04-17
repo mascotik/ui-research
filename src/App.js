@@ -1,11 +1,19 @@
 import './App.css';
 
+import { Menu } from 'antd';
+
 import womanImg from './assets/img/rectImage.jpg';
 
 function App() {
   return (
     <div className="app">
       <header className="header">
+        <Menu mode="horizontal">
+          <Menu.Item>Woman</Menu.Item>
+          <Menu.Item>Man</Menu.Item>
+        </Menu>
+{/*         
+        
         <nav className="nav">
           <ul className="nav_list">
             <li className="nav_list--item active">
@@ -15,7 +23,7 @@ function App() {
               <a className="nav_list--link" href="#">Man</a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </header>
       <section title="About woman" className="card">
         <h1>About woman</h1>
