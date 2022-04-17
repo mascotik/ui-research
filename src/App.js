@@ -7,14 +7,14 @@ function App() {
     <div className="app">
       <header className="header">
         <nav className="nav">
-          <ol className="nav_list">
+          <ul className="nav_list">
             <li className="nav_list--item active">
               <a className="nav_list--link" href="#">Woman</a>
             </li>
             <li className="nav_list--item">
               <a className="nav_list--link" href="#">Man</a>
             </li>
-          </ol>
+          </ul>
         </nav>
       </header>
       <section title="About woman" className="card">
