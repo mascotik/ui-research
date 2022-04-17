@@ -1,9 +1,41 @@
 import './App.css';
 
+import womanImg from './assets/img/rectImage.jpg';
+
 function App() {
   return (
     <div className="App">
-      Hello!
+      <header>
+        <ol>
+          <li>
+            <a href="#">Woman</a>
+          </li>
+          <li>
+            <a href="#">Man</a>
+          </li>
+        </ol>
+      </header>
+      <section title="About woman" className="card">
+        <h1>About woman</h1>
+        <figure className="card_img">
+          <img src={womanImg} alt="Woman"/>
+        </figure>
+        <article>
+          <h2>Etymology</h2>
+          <p>The spelling of "woman" in English has progressed over the past
+            millennium from wīfmann[4] to wīmmann to wumman, and finally, the modern
+            spelling woman.[5] In Old English, wīfmann meant "woman" (literally
+            "woman-person"), whereas wer meant "man". Mann had a gender-neutral
+            meaning of "human", corresponding to Modern English "person" or "someone";
+            however, subsequent to the Norman Conquest, man began to be used more in
+            reference to "male human", and by the late 13th century it had begun to eclipse
+            usage of the older term wer.[6] The medial labial consonants f and m in wīfmann
+            coalesced into the modern form "woman", while the initial element wīf, which
+            had also meant "woman", underwent semantic narrowing to the sense of a married
+            woman ("wife").
+          </p>
+        </article>
+      </section>
     </div>
   );
 }
